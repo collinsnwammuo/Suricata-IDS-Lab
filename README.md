@@ -126,18 +126,6 @@ alert   tcp       any     any       ->         any      22         (
 
 ---
 
-## Connection to Other Portfolios
-
-| Detection Layer | Tool | Repository |
-|---|---|---|
-| Packet level | Wireshark | [Wireshark Portfolio](https://github.com/collinsnwammuo/Wireshark-projects) |
-| SIEM / Log level | Splunk | [Splunk Portfolio](https://github.com/collinsnwammuo/SIEM-Splunk) |
-| IDS / Signature level | Suricata | This repository |
-
-The same attacks appear across all three layers. An Nmap SYN scan against the Windows VM shows up as raw SYN packets in Wireshark, as connection state data in Zeek logs inside Splunk, and as `POSSBL PORT SCAN (NMAP -sS)` alerts in Suricata -- three independent detection methods for the same activity.
-
----
-
 ## Tools Used
 
 - **Suricata 8.0.5** -- IDS/IPS engine
