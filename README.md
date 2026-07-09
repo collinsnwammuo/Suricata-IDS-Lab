@@ -89,11 +89,11 @@ sudo suricata-update
 
 | # | Project | Key Skills | Status |
 |---|---------|------------|--------|
-| 01 | [Installation & Setup](./Project%2001%20-%20Installation%20and%20Setup) | Install, dual-interface config, rule management, Splunk integration | ✅ Complete |
-| 02 | [Writing Custom Rules](./Project%2002%20-%20Writing%20Custom%20Rules) | Rule anatomy, custom signatures, threshold tuning, testing | ⏳ Planned |
-| 03 | [Detecting SSH Brute Force](./Project%2003%20-%20Detecting%20SSH%20Brute%20Force) | Live Hydra attack, SSH signatures, MTTD measurement | ⏳ Planned |
-| 04 | [Detecting Nmap Scans](./Project%2004%20-%20Detecting%20Nmap%20Scans) | SYN/XMAS/NULL scan signatures, OS fingerprint detection | ⏳ Planned |
-| 05 | [Splunk Integration Dashboard](./Project%2005%20-%20Splunk%20Integration) | Alert dashboard, severity classification, cross-source correlation | ⏳ Planned |
+| 01 | [Installation & Setup](https://github.com/collinsnwammuo/Suricata-IDS-Lab/tree/main/Installation%20and%20Setup) | Install, dual-interface config, rule management, Splunk integration | ✅ Complete |
+| 02 | [Writing Custom Rules](https://github.com/collinsnwammuo/Suricata-IDS-Lab/tree/main/Writing%20Custom%20Rules) | Rule anatomy, custom signatures, threshold tuning, testing | ✅ Complete |
+| 03 | [Detecting SSH Brute Force](https://github.com/collinsnwammuo/Suricata-IDS-Lab/tree/main/Detecting%20SSH%20Brute%20Force) | Live Hydra attack, SSH signatures, MTTD measurement | ✅ Complete |
+| 04 | [Detecting Nmap Scans](https://github.com/collinsnwammuo/Suricata-IDS-Lab/tree/main/Detecting%20Nmap%20Scans) | SYN/XMAS/NULL scan signatures, OS fingerprint detection | ✅ Complete |
+| 05 | [Splunk Integration Dashboard](https://github.com/collinsnwammuo/Suricata-IDS-Lab/tree/main/Splunk%20Integration%20Dashboard) | Alert dashboard, severity classification, cross-source correlation | ✅ Complete |
 
 ---
 
